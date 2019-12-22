@@ -20,7 +20,7 @@ ________________________________________________________________________________
     - ex) C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2)
   - OpenCV 2.4.13.6 [설치 링크 4]
     - 압축을 풀고 생성된 폴더를 C드라이브 루트 디렉터리에 둡니다. 
-    ![a.png](C:/Users/locke/Desktop/a.png)
+    ![a.png](./image/a.png)
     - 시스템 환경 변수에 OPENCV_DIR 이름으로 opencv path를 등록합니다.
   
 [darknet]: https://github.com/AlexeyAB/darknet/
