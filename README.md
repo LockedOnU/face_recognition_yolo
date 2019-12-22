@@ -2,7 +2,10 @@
 
 ## requirements
 
-**AlexeyAB**의 [darknet] 레포지토리를 참고하셔서 VS, CUDA, cuDNN, openCV, Yolo 윈도우 배포 버전을 설치합니다.
+**AlexeyAB**의 [darknet] 레포지토리를 설치 후 일부 파일을 수정한 패키지입니다. 아래 구동에 필요한 프로그램 설치 후 빌드하고 사용할 수 있습니다.
+작성 당시(19.12.22) **AlexeyAB**의 darknet 레포지토리의 원본 패키지에 덮어쓰시면 빌드 오류가 발생하니 참고하시기 바랍니다.
+*******************************************************************************
+VS, CUDA, cuDNN, openCV를 설치합니다.
 
 참고 (실행한 환경)
   - Windows 10 Home
@@ -12,12 +15,14 @@
 _________________________________________________________________________________
   - Visual Studio 2017 [설치 링크 1] [ [참조 링크 1],  [참조 링크 2] ]
   - CUDA 10.2  [설치 링크 2]
-  - cuDNN 7.6.5 for CUDA 10.2  [설치 링크 3]
+  - cuDNN 7.6.5 for CUDA 10.2  [설치 링크 3] 
+    - 압축을 풀고 생성된 디렉터리들을 CUDA 설치 디렉터리에 복사합니다. 
+    - ex) C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2)
   - OpenCV 2.4.13.6 [설치 링크 4]
+    - 압축을 풀고 생성된 폴더를 C드라이브 루트 디렉터리에 둡니다. 
+    ![a.png](C:/Users/locke/Desktop/a.png)
+    - 시스템 환경 변수에 OPENCV_DIR 이름으로 opencv path를 등록합니다.
   
- darknet 빌드 방법은 **AlexeyAB** darknet 페이지에 상세히 설명되어있으니 생략하겠습니다.
- 빌드 부분에서 궁금하신 점이 있다면 알려드리겠습니다. (lockedonu@gmail.com)
-
 [darknet]: https://github.com/AlexeyAB/darknet/
 [설치 링크 1]: https://docs.microsoft.com/ko-kr/visualstudio/releasenotes/vs2017-relnotes
 [설치 링크 2]: https://developer.nvidia.com/cuda-downloads
